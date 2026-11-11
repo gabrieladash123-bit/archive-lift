@@ -1,0 +1,267 @@
+{
+  "id": "inconsistent",
+  "contract": "0x4c164d354eC50e8F6661d79C55279E52557F3b4c",
+  "deployment": "0x21cd7e502709e09bf6df2c4e3b80b91f4987baf62f17044ba70c27addbffede8",
+  "revision": "1fdd68099bc4d426444cde58c6b59d71acca1b2f",
+  "source_sha256": "74846c29805b96c36ffe08a10cd54fa426729c690f08c354ec3b632bfadcaa22",
+  "trace": [
+    {
+      "label": "deploy",
+      "hash": "0x21cd7e502709e09bf6df2c4e3b80b91f4987baf62f17044ba70c27addbffede8",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "signer": "0xf934a86fdc9b5ee8a9b913370756009d28f1c1fb",
+      "typed": {
+        "args": [
+          "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/0.hex|https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/1.hex|https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/2.hex|https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/3.hex|https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/missing-e.hex",
+          "bc439b36f8c67db418e481728ba9136b2e116e421060b39cc079c5bbe73a01f1,8c1854b636d966db1488dcc803f243a2ba01950e11e76e7d93c9dab885832587,88a7846138da223fb87649d9d25449fe3ff4345a230d29a2f21bc0a39ca775c0,b1269b6da9c4b9307636028c979260963f6d45c3ff563811953501e34960e936,dace2b0dde3aea0ce6dc891f1f794e7e8609635e319f9c593eeac98642e59c70",
+          "b6d2a4835d5edf90896916cdb358461eeee40d37f80f9f6e4d590f951a8a3d18",
+          113
+        ]
+      },
+      "error": null,
+      "state": {
+        "archive_hex": null,
+        "latest": null,
+        "manifest": {
+          "length": 113,
+          "payload_sha256": "b6d2a4835d5edf90896916cdb358461eeee40d37f80f9f6e4d590f951a8a3d18",
+          "sha256": [
+            "bc439b36f8c67db418e481728ba9136b2e116e421060b39cc079c5bbe73a01f1",
+            "8c1854b636d966db1488dcc803f243a2ba01950e11e76e7d93c9dab885832587",
+            "88a7846138da223fb87649d9d25449fe3ff4345a230d29a2f21bc0a39ca775c0",
+            "b1269b6da9c4b9307636028c979260963f6d45c3ff563811953501e34960e936",
+            "dace2b0dde3aea0ce6dc891f1f794e7e8609635e319f9c593eeac98642e59c70"
+          ],
+          "shard_width": 38,
+          "urls": [
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/0.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/1.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/2.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/3.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/missing-e.hex"
+          ]
+        },
+        "round": 0
+      }
+    },
+    {
+      "label": "probe-1",
+      "hash": "0x5bb50a8b34e8d62da596e613332cdb502a0911206c0f37b5926387e5fd67a4b3",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x2ecd6b13592b1c1c0a130a9062291baee228d882",
+      "typed": {
+        "method": "probe",
+        "args": [
+          0
+        ]
+      },
+      "error": null,
+      "state": {
+        "archive_hex": null,
+        "latest": {
+          "basis": [
+            0,
+            1,
+            2
+          ],
+          "mirrors": [
+            {
+              "sha256": "bc439b36f8c67db418e481728ba9136b2e116e421060b39cc079c5bbe73a01f1",
+              "status": "VERIFIED"
+            },
+            {
+              "sha256": "8c1854b636d966db1488dcc803f243a2ba01950e11e76e7d93c9dab885832587",
+              "status": "VERIFIED"
+            },
+            {
+              "sha256": "88a7846138da223fb87649d9d25449fe3ff4345a230d29a2f21bc0a39ca775c0",
+              "status": "VERIFIED"
+            },
+            {
+              "sha256": "b1269b6da9c4b9307636028c979260963f6d45c3ff563811953501e34960e936",
+              "status": "VERIFIED"
+            },
+            {
+              "status": "MISSING"
+            }
+          ],
+          "outcome": "INCONSISTENT",
+          "round": 1
+        },
+        "manifest": {
+          "length": 113,
+          "payload_sha256": "b6d2a4835d5edf90896916cdb358461eeee40d37f80f9f6e4d590f951a8a3d18",
+          "sha256": [
+            "bc439b36f8c67db418e481728ba9136b2e116e421060b39cc079c5bbe73a01f1",
+            "8c1854b636d966db1488dcc803f243a2ba01950e11e76e7d93c9dab885832587",
+            "88a7846138da223fb87649d9d25449fe3ff4345a230d29a2f21bc0a39ca775c0",
+            "b1269b6da9c4b9307636028c979260963f6d45c3ff563811953501e34960e936",
+            "dace2b0dde3aea0ce6dc891f1f794e7e8609635e319f9c593eeac98642e59c70"
+          ],
+          "shard_width": 38,
+          "urls": [
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/0.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/1.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/2.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/3.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/missing-e.hex"
+          ]
+        },
+        "round": 1
+      }
+    },
+    {
+      "label": "stale",
+      "hash": "0x0accef617ae75ff974a53feebf7ef1891bc4de294edb13abca2e15ffb2c64c65",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "signer": "0xf934a86fdc9b5ee8a9b913370756009d28f1c1fb",
+      "typed": {
+        "method": "probe",
+        "args": [
+          0
+        ]
+      },
+      "error": "Stale round",
+      "state": {
+        "archive_hex": null,
+        "latest": {
+          "basis": [
+            0,
+            1,
+            2
+          ],
+          "mirrors": [
+            {
+              "sha256": "bc439b36f8c67db418e481728ba9136b2e116e421060b39cc079c5bbe73a01f1",
+              "status": "VERIFIED"
+            },
+            {
+              "sha256": "8c1854b636d966db1488dcc803f243a2ba01950e11e76e7d93c9dab885832587",
+              "status": "VERIFIED"
+            },
+            {
+              "sha256": "88a7846138da223fb87649d9d25449fe3ff4345a230d29a2f21bc0a39ca775c0",
+              "status": "VERIFIED"
+            },
+            {
+              "sha256": "b1269b6da9c4b9307636028c979260963f6d45c3ff563811953501e34960e936",
+              "status": "VERIFIED"
+            },
+            {
+              "status": "MISSING"
+            }
+          ],
+          "outcome": "INCONSISTENT",
+          "round": 1
+        },
+        "manifest": {
+          "length": 113,
+          "payload_sha256": "b6d2a4835d5edf90896916cdb358461eeee40d37f80f9f6e4d590f951a8a3d18",
+          "sha256": [
+            "bc439b36f8c67db418e481728ba9136b2e116e421060b39cc079c5bbe73a01f1",
+            "8c1854b636d966db1488dcc803f243a2ba01950e11e76e7d93c9dab885832587",
+            "88a7846138da223fb87649d9d25449fe3ff4345a230d29a2f21bc0a39ca775c0",
+            "b1269b6da9c4b9307636028c979260963f6d45c3ff563811953501e34960e936",
+            "dace2b0dde3aea0ce6dc891f1f794e7e8609635e319f9c593eeac98642e59c70"
+          ],
+          "shard_width": 38,
+          "urls": [
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/0.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/1.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/2.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/3.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/missing-e.hex"
+          ]
+        },
+        "round": 1
+      }
+    },
+    {
+      "label": "probe-2",
+      "hash": "0xa93c29163dedb84757bc23a0083dfa4a4b19b53012724279756fed7062e41401",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xf934a86fdc9b5ee8a9b913370756009d28f1c1fb",
+      "typed": {
+        "method": "probe",
+        "args": [
+          1
+        ]
+      },
+      "error": null,
+      "state": {
+        "archive_hex": null,
+        "latest": {
+          "basis": [
+            0,
+            1,
+            2
+          ],
+          "mirrors": [
+            {
+              "sha256": "bc439b36f8c67db418e481728ba9136b2e116e421060b39cc079c5bbe73a01f1",
+              "status": "VERIFIED"
+            },
+            {
+              "sha256": "8c1854b636d966db1488dcc803f243a2ba01950e11e76e7d93c9dab885832587",
+              "status": "VERIFIED"
+            },
+            {
+              "sha256": "88a7846138da223fb87649d9d25449fe3ff4345a230d29a2f21bc0a39ca775c0",
+              "status": "VERIFIED"
+            },
+            {
+              "sha256": "b1269b6da9c4b9307636028c979260963f6d45c3ff563811953501e34960e936",
+              "status": "VERIFIED"
+            },
+            {
+              "status": "MISSING"
+            }
+          ],
+          "outcome": "INCONSISTENT",
+          "round": 2
+        },
+        "manifest": {
+          "length": 113,
+          "payload_sha256": "b6d2a4835d5edf90896916cdb358461eeee40d37f80f9f6e4d590f951a8a3d18",
+          "sha256": [
+            "bc439b36f8c67db418e481728ba9136b2e116e421060b39cc079c5bbe73a01f1",
+            "8c1854b636d966db1488dcc803f243a2ba01950e11e76e7d93c9dab885832587",
+            "88a7846138da223fb87649d9d25449fe3ff4345a230d29a2f21bc0a39ca775c0",
+            "b1269b6da9c4b9307636028c979260963f6d45c3ff563811953501e34960e936",
+            "dace2b0dde3aea0ce6dc891f1f794e7e8609635e319f9c593eeac98642e59c70"
+          ],
+          "shard_width": 38,
+          "urls": [
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/0.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/1.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/2.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/3.hex",
+            "https://raw.githubusercontent.com/gabrieladash123-bit/archive-lift/1fdd68099bc4d426444cde58c6b59d71acca1b2f/shards/missing-e.hex"
+          ]
+        },
+        "round": 2
+      }
+    }
+  ],
+  "repair": []
+}

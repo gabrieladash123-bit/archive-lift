@@ -1,0 +1,14 @@
+# ArchiveLift StudioNet proofs
+
+Verified 16 finalized receipts, including 12 successful calls and four expected stale-round rejections. Raw receipts record 0 dissenting votes.
+
+| Scenario | Outcome | Decode basis | Address | Deployment | First probe | Second probe | Workflow |
+|---|---|---|---|---|---|---|---|
+| intact | RECOVERABLE | 0, 1, 2 | [Contract](https://explorer-studio.genlayer.com/address/0xB952e8Af4f3B25e78A7c40a7d3F5243d7e2b62f4) | [Deploy](https://explorer-studio.genlayer.com/tx/0x5760fe15756dd5cc4613cc9b7827b2158274dbd3d557e720578e5f8177a7d013) | [Probe 1](https://explorer-studio.genlayer.com/tx/0xe5e7d018519b23f4ac8d9572e43f2ed660224561a366ffdb29ab437990f75e4c) | [Probe 2](https://explorer-studio.genlayer.com/tx/0x10d6cd4d354ff41058ca7f16394ea3f58cbd0662d7871684f3985d6b9724e955) | [Run](https://github.com/gabrieladash123-bit/archive-lift/actions/runs/43109240406) |
+| degraded | RECOVERABLE | 2, 3, 4 | [Contract](https://explorer-studio.genlayer.com/address/0xC42D84BcD7C3153C026B85b0A61933E6c6Cf50A8) | [Deploy](https://explorer-studio.genlayer.com/tx/0x5b3949e5acad42b45f214ed7cc7a0fc5d19c6af29a735f7d4aba736d5d58fca7) | [Probe 1](https://explorer-studio.genlayer.com/tx/0x31f237a54a52ae63ae393f928f84f6970339002a03e71f7ebb805139af6e3268) | [Probe 2](https://explorer-studio.genlayer.com/tx/0x709f6f4009ffd53e58ac670110aeebd0a06a637ccd109a0be4dd15cadfdbbc88) | [Run](https://github.com/gabrieladash123-bit/archive-lift/actions/runs/43109257521) |
+| insufficient | INSUFFICIENT | 2, 3 | [Contract](https://explorer-studio.genlayer.com/address/0x37CFa6295F4061Cd4Bad41e87CB98c70Af416580) | [Deploy](https://explorer-studio.genlayer.com/tx/0xa4bf680e2224617f079dab42f1354242c614ad3d376e4f4a3e49015c62cd3443) | [Probe 1](https://explorer-studio.genlayer.com/tx/0xe5f2ceb6cffeea2fd3800348b8942b55f62eea9c5f50e8c55b5900758ae04540) | [Probe 2](https://explorer-studio.genlayer.com/tx/0x349ccbeffbe642edc2507755c7db4523f7d17b41e697e4b8cbf6e06cf9e91ff1) | [Run](https://github.com/gabrieladash123-bit/archive-lift/actions/runs/43109276323) |
+| inconsistent | INCONSISTENT | 0, 1, 2 | [Contract](https://explorer-studio.genlayer.com/address/0x4c164d354eC50e8F6661d79C55279E52557F3b4c) | [Deploy](https://explorer-studio.genlayer.com/tx/0x21cd7e502709e09bf6df2c4e3b80b91f4987baf62f17044ba70c27addbffede8) | [Probe 1](https://explorer-studio.genlayer.com/tx/0x5bb50a8b34e8d62da596e613332cdb502a0911206c0f37b5926387e5fd67a4b3) | [Probe 2](https://explorer-studio.genlayer.com/tx/0xa93c29163dedb84757bc23a0083dfa4a4b19b53012724279756fed7062e41401) | [Run](https://github.com/gabrieladash123-bit/archive-lift/actions/runs/43109287305) |
+
+Each trace records full onchain state after every transaction. Both recoverable instances also returned all five regenerated shards.
+Source SHA-256: `74846c29805b96c36ffe08a10cd54fa426729c690f08c354ec3b632bfadcaa22`.
+Fixture commit: `1fdd68099bc4d426444cde58c6b59d71acca1b2f`.

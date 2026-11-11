@@ -49,6 +49,8 @@ regenerated shard against an independently generated fixture. The degraded case
 reconstructs from one systematic shard and both parity shards. The inconsistent
 case supplies four valid shards but poisons the commitment for the absent fifth.
 
+[StudioNet receipts and contract addresses](proofs/README.md) · [Submission text](SUBMISSION.md)
+
 ```sh
 pip install -r requirements-dev.txt
 genvm-lint download --version v0.2.16
